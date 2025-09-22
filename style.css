@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 12px;
+  justify-content: center;
+  margin: 20px auto;
+}
+.mole {
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform .12s, background .12s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.mole:active { transform: scale(.95); }
+.active {
+  background: green; /* <-- active mole color (green as you asked) */
+}
+#score { font-size: 18px; margin-top: 12px; }
+#message { font-size: 20px; color: #0a8b0a; margin: 10px 0; }
+button { padding: 8px 12px; font-size: 15px; cursor: pointer; }
