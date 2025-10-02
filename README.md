@@ -3,12 +3,10 @@
 A fun and interactive **Whack-a-Mole browser game** built using **Vanilla JavaScript, HTML, and CSS**.  
 Click on the active (green) mole to score points. First to **5 points** wins the game 🎉  
 
----
 
 ## 🚀 Live Demo  
 🔗 [Play Whack-a-Mole Now](https://hardikkaurani.github.io/mole-game/)  
 
----
 
 ## ✨ Features  
 ✅ Random mole highlights every second  
@@ -17,7 +15,6 @@ Click on the active (green) mole to score points. First to **5 points** wins the
 ✅ Restart button to replay the game  
 ✅ Built with **pure HTML, CSS, and JavaScript** (no libraries)  
 
----
 
 ## 🕹️ How to Play  
 1. Wait for a mole to turn **green**.  
@@ -26,7 +23,4 @@ Click on the active (green) mole to score points. First to **5 points** wins the
 4. Reach **5 points** → 🎉 You win!  
 5. Press **Restart** to play again.  
 
----
-
-## 📂 Project Structure  
 
